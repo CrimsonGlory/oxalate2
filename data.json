@@ -177,7 +177,8 @@
             "quantity": 85,
             "quantity_unit": "g",
             "volume_to_weight_source": "https://www.quora.com/How-big-is-3-oz-of-meat",
-            "volume_to_weight_source_archive": "https://archive.is/wip/JCZbE"
+            "volume_to_weight_source_archive": "https://archive.is/wip/JCZbE",
+            "oxalate": 0
         }
     },
     {
@@ -185,42 +186,90 @@
         "quantity": "1 Tbs",
         "oxalate": "0 mg",
         "source": "Harvard 2008",
-        "sort": "0"
+        "sort": "0",
+        "new": {
+            "name": {
+                "es": "Vin cuit de manzana",
+                "type": "preparation",
+                "quantity": 0,
+                "quantity_unit": "g",
+                "oxalate": 0
+            }
+
+        }
+
     },
     {
         "food": "Apple Cinnamon Cheerios",
         "quantity": "3\\/4 cup",
         "oxalate": "5 mg",
         "source": "Harvard 2008",
-        "sort": "5"
+        "sort": "5",
+        "new": {
+            "type": "product",
+            "quantity": 27.75,
+            "quanity_unit": "g",
+            "oxalate": 5,
+            "volume_to_weight_source": "https://www.cheerios.com/es/products/apple-cinnamon-cheerios",
+            "volume_to_weight_source_archive": "https://archive.is/dKiYe"
+        }
     },
     {
         "food": "Apple Juice",
         "quantity": "6 oz",
         "oxalate": "2 mg",
         "source": "Harvard 2008",
-        "sort": "2"
+        "sort": "2",
+        "new" : {
+            "type": "preparation",
+            "quantity": 59.1471,
+            "quantity_unit": "ml",
+            "oxalate": 2
+        }
     },
     {
         "food": "Apple Pie ",
         "quantity": "1 piece or 1\\/8th of pie",
         "oxalate": "5 mg",
         "source": "Harvard 2008",
-        "sort": "5"
+        "sort": "5",
+        "new": {
+            "vague": true
+        }
     },
     {
         "food": "Apple Sauce",
         "quantity": "1 cup",
         "oxalate": "2 mg",
         "source": "Harvard 2008",
-        "sort": "2"
+        "sort": "2",
+        "new": {
+            "type": "preparation",
+            "name": {
+                "es": "Compota de manzana",
+                "es-AR": "Puré de manzana"
+            },
+            "quantity": 250,
+            "quantity_unit": "g",
+            "volume_to_weight_source": "https://coolconversion.com/cooking-volume-weight/1~cup~of~applesauce~to~gram",
+            "volume_to_weight_source_archive": "https://archive.is/wip/FgWE9"
+        }
     },
     {
         "food": "Apple, with skin, raw",
         "quantity": "100 g edible portion of fresh weight",
         "oxalate": "10 mg",
         "source": "FAO Bangladesh 2014",
-        "sort": "10"
+        "sort": "10",
+        "new": {
+            "name": {
+                "es": "Manzana con cáscara (100g de la parte comible)"
+            },
+            "quantity": 100,
+            "quantity_unit": "g",
+            "oxalate": 10
+
+        }
     },
     {
         "food": "Apples",
