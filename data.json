@@ -263,6 +263,7 @@
         "sort": "10",
         "new": {
             "name": {
+                "en": "Apple, with skin, raw. 100 g edible portion of fresh weight",
                 "es": "Manzana con cáscara (100g de la parte comible)"
             },
             "quantity": 100,
@@ -276,21 +277,50 @@
         "quantity": "1 fruit",
         "oxalate": "1 mg",
         "source": "Harvard 2008",
-        "sort": "1"
+        "sort": "1",
+        "new": {
+            "name": {
+                "es": "Manzana"
+            },
+            "quantity": 182,
+            "quantity_unit": "g",
+            "volume_to_weight_source": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/171688/measures",
+            "volume_to_weight_source_archive": "https://archive.is/wip/4Lk9A",
+            "notes": "Source says '1 fruit'. One average size apple is 182g",
+            "oxalate": 1
+
+        }
     },
     {
         "food": "Apples, Bramley's Seedling (Raw)",
         "quantity": "100 g fresh weight",
         "oxalate": "1.5 mg",
         "source": "Zarembski 1962",
-        "sort": "2"
+        "sort": "2",
+        "new": {
+            "name": {
+                "es": "Bramley's Seedling (manzana)"
+            },
+            "quantity": 100,
+            "quantity_unit": "g",
+            "oxalate": 1.5
+        }
     },
     {
         "food": "Apricot Juice",
         "quantity": "1 cup",
         "oxalate": "2 mg",
         "source": "Harvard 2008",
-        "sort": "2"
+        "sort": "2",
+        "new": {
+            "name": {
+                "es": "Jugo de albaricoque",
+                "es-ar": "Jugo de damasco"
+            },
+            "quantity": 236.588,
+            "quanity_unit": "ml",
+            "oxalate": 2
+        }
     },
     {
         "food": "Apricots ",
