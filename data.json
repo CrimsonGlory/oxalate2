@@ -323,46 +323,93 @@
         }
     },
     {
-        "food": "Apricots ",
+        "food": "Apricots",
         "quantity": "1 fruit",
         "oxalate": "0 mg",
         "source": "Harvard 2008",
-        "sort": "0"
+        "sort": "0",
+        "new": {
+            "name": {
+                "es": "Albaricoque",
+                "es-ar": "Damasco"
+            },
+            "quantity": 35,
+            "quantity_unit": "g",
+            "volume_to_weight_source": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/171697/measures",
+            "volume_to_weight_source_archive": "https://archive.ph/wip/KGGVD"
+            "oxalate": 0
+        }
     },
     {
         "food": "Artichokes",
         "quantity": "1 small bud",
         "oxalate": "5 mg",
         "source": "Harvard 2008",
-        "sort": "5"
+        "sort": "5",
+        "new": {
+            "name": {
+                "es": "Alcachofa",
+                "es-ar": "Alcaucil"
+            },
+            "quantity": 128,
+            "quantity_unit": "g",
+            "volume_to_weight_source": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/169205/measures",
+            "volume_to_weight_source_archive": "https://archive.ph/wip/KEVsx",
+            "oxalate": 5
+        }
     },
     {
         "food": "Artificial Sweetner <span class=\"food_alt small\">[Artificial Sweetener]<\\/span>",
         "quantity": "1 packet",
         "oxalate": "1 mg",
         "source": "Harvard 2008",
-        "sort": "1"
+        "sort": "1",
+        "new": {
+            "vague": true
+        }
     },
     {
         "food": "Asparagus",
         "quantity": "4 spears",
         "oxalate": "6 mg",
         "source": "Harvard 2008",
-        "sort": "6"
+        "sort": "6",
+        "new": {
+            "name": {
+                "es": "Espárrago"
+            },
+            "quantity": 64,
+            "quantity_unit": "g",
+            "oxalate": 6,
+            "volume_to_weight_source": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/168389/measures",
+            "volume_to_weight_source_archive": "https://archive.ph/wip/yiS25"
+        }
     },
     {
         "food": "Asparagus",
         "quantity": "100 g",
         "oxalate": "130 mg",
         "source": "USDA 1984",
-        "sort": "130"
+        "sort": "130",
+        "new": {
+            "name": "Espárrago"
+        },
+        "quantity": 100,
+        "quantity_unit": "g",
+        "oxalate": 130
     },
     {
         "food": "Asparagus (Boiled)",
         "quantity": "100 g fresh weight",
         "oxalate": "1.9 mg",
         "source": "Zarembski 1962",
-        "sort": "2"
+        "sort": "2",
+        "new": {
+            "name": "Espárragos hervidos"
+        },
+        "quantity": 100,
+        "quantity_unit": "g",
+        "oxalate": 1.9
     },
     {
         "food": "Aubergine, Eggplant",
