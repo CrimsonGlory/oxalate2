@@ -336,7 +336,7 @@
             "quantity": 35,
             "quantity_unit": "g",
             "volume_to_weight_source": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/171697/measures",
-            "volume_to_weight_source_archive": "https://archive.ph/wip/KGGVD"
+            "volume_to_weight_source_archive": "https://archive.ph/wip/KGGVD",
             "oxalate": 0
         }
     },
@@ -416,28 +416,66 @@
         "quantity": "100 g",
         "oxalate": "29.1 mg",
         "source": "USDA Dr. Duke",
-        "sort": "29"
+        "sort": "29",
+        "new": {
+            "name": {
+                "es": "Berenjena"
+            },
+            "quantity": 100,
+            "quantity_unit": "g",
+            "oxalate": 29
+
+        }
     },
     {
         "food": "Avocados",
         "quantity": "1 fruit",
         "oxalate": "19 mg",
         "source": "Harvard 2008",
-        "sort": "19"
+        "sort": "19",
+        "new": {
+            "name": {
+                "es": "Aguacate",
+                "es-ar": "Palta"
+            },
+            "quantity": 105,
+            "quantity_unit": "g",
+            "volume_to_weight_source": "https://slicesofbluesky.com/does-edible-percentage-of-avocado/",
+            "volume_to_weight_source_archive": "https://archive.is/wip/irpYc",
+            "oxalate": 19
+        }
     },
     {
         "food": "Bacon",
         "quantity": "2 slices",
         "oxalate": "0 mg",
         "source": "Harvard 2008",
-        "sort": "0"
+        "sort": "0",
+        "new": {
+            "name": {
+                "es": "Tocino",
+                "es-ar": "Panceta"
+            },
+            "quantity": 100,
+            "quantity_unit": "g",
+            "oxalate": 2.53,
+            "source": "NCCDB"
+        }
     },
     {
         "food": "Bacon, streaky (Fried)",
         "quantity": "100 g fresh weight",
         "oxalate": "0.6 mg",
         "source": "Zarembski 1962",
-        "sort": "1"
+        "sort": "1",
+        "new": {
+            "name": {
+                "es": "Tocino entreverado (frito)",
+                "es-ar": "Pacenta entreverado (frito)"
+            },
+            "quantity": 100,
+            "oxalate": 0.6
+        }
     },
     {
         "food": "Baked Potato with Skin",
